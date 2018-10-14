@@ -9,9 +9,10 @@ def isRealDate(in_date):
         print("Incorrect argument format, should be DD/MM/YYYY")
         exit()
 
-in_date = sys.argv[1]
+in_date = sys.argv[1] #Getting the first argument in the command line as user input date
 
-isRealDate(in_date)
+isRealDate(in_date) #Checking for badly written input, in case it is detected, code gives an error and stops running
+
 dayName = calendar.day_name[date(int(in_date[6:10]), int(in_date[3:5]), int(in_date[0:2])).weekday()]
 print("\nThe inserted date " + in_date + " is on a " + dayName)
 
