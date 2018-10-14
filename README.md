@@ -10,9 +10,9 @@ B = valore
 >Successivamente, scambia i valori delle due variabili senza usare una terza variabile di swap, e ristampa il risultato nello stesso formato.
 
 English: 
->Create a Python3 script which receives two integer numbers from keyboard input, saves those values in two variables called a and b and prints them on the console in the following format:
->A = valore
-B = valore
+>Create a Python3 script which receives two integer numbers as keyboard input, saves those values in two variables called a and b and prints them on the console in the following format:
+>A = value
+B = value
 >Subsequently, swap the values of the two variables without the use of a third variable, and prints the result in the same format.
 
 ---
@@ -34,11 +34,12 @@ Lo script deve:
 > 3. Scrivere in un file di testo i codici dei dischi rigidi funzionanti, per riga, ordinati per codice ascendente
 
 English:
->Given in input a JSON file containing information about hard disks
+>Given as input a JSON file containing information about hard disks.
 The script has to:
 > 1. Load the file in a dictionary list
 > 2. Order the list by increasing code with complexity O(nlog(n))
-> 3. Write in a text file the codes if the working hard disks, by line, ordered in an increasing order
+> 3. Write in a text file the codes of the working hard disks, by line, ordered in an increasing order
+
 
 JSON file format example:
 ```json
