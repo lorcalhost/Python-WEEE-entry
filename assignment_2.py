@@ -1,4 +1,4 @@
-#First assignment for WEEE entry test - Lorenzo Callegari
+#Second assignment for WEEE entry test - Lorenzo Callegari
 from datetime import date
 import datetime, calendar, sys
 
@@ -6,7 +6,7 @@ def isRealDate(in_date):
     try:
         datetime.datetime.strptime(in_date, '%d/%m/%Y')
     except ValueError:
-        print("Incorrect data format, should be DD/MM/YYYY")
+        print("Incorrect argument format, should be DD/MM/YYYY")
         exit()
 
 in_date = sys.argv[1]
