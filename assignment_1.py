@@ -1,8 +1,6 @@
 #First assignment for WEEE entry test - Lorenzo Callegari
-print("Enter the first value: ")
-a = input()
-print("Enter the second value: ")
-b = input()
+a = input('Enter the first value: ')
+b = input('Enter the second value: ')
 
 print("\n\nBEFORE SWAP\nA = " + a + "\nB = " + b)
 
