@@ -2,8 +2,8 @@
 a = input('Enter the first value: ')
 b = input('Enter the second value: ')
 
-print("\n\nBEFORE SWAP\nA = " + a + "\nB = " + b)
+print("BEFORE SWAP:\nA = {}\nB = {}".format(a, b))
 
 a,b = b,a
 
-print("\n\nAFTER SWAP:\nA = " + a + "\nB = " + b)
+print("\nAFTER SWAP:\nA = {}\nB = {}".format(a, b))
